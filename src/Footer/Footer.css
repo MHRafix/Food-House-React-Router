@@ -1,0 +1,14 @@
+h2.creditHeadline {
+   color: #ccc;
+   font-weight: 700;
+   font-family: 'Poppins';
+}
+.portfolioLink {
+    color: #bbb;
+   text-decoration: none;
+   transition: .3s;
+
+}
+.portfolioLink:hover {
+   color: var(--green);
+}

@@ -1,0 +1,102 @@
+.singleFood {
+    background: #e7e7e7;
+    padding-top: 80px;
+}
+
+.row.justify-content-between {
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.foodImage img {
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.detailsOfFood {
+    text-align: left;
+    font-family: 'Poppins';
+    margin-top: -50px;
+}
+.detailsOfFood h2.foodName{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.detailsOfFood span.regularPrice{
+    color: rgb(221, 129, 129);
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 28px;
+    margin-right: 10px;
+}
+.detailsOfFood span.salePrice{
+    color: var(--green);
+    font-weight: 700;
+    font-size: 32px;
+}
+.detailsOfFood button.viewBtn{
+    color: white;
+    background-color: var(--green);
+    padding: 8px 35px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.detailsOfFood .foodRatting {
+    color: var(--green);
+    font-size: 22px;
+    margin-left: 40px;
+}
+
+.detailsOfFood .quantity{
+    border: 1px solid #eee;
+    padding: 10px 7px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50px;
+    margin-top: 10px;
+}
+.detailsOfFood span.stock{
+    color: var(--green);
+    font-size: 18px;
+}
+.detailsOfFood span.cat{
+    margin-left: 20px;
+    color: var(--green);
+    font-size: 18px;
+}
+
+.shortDesc {
+    text-align: left;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    font-weight: 500;
+    line-height: 27px;
+    border: 1px solid #d3d3d3;
+    padding: 15px 12px;
+}
+
+.shortDesc h2.descHeadline{
+    color: var(--text-color);
+}
+
+/* Responsive food single card  */
+@media only screen and (max-width: 768px){
+.foodImage {
+    margin-bottom: 70px;
+}
+}
+@media only screen and (max-width: 425px){
+.foodImage img {
+    width: 95%;
+    height: 330px;
+}
+}
+

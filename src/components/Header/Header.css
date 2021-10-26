@@ -1,0 +1,47 @@
+/* Header css styel start from here  */
+section .header {
+    background: #fff;
+    font-family: 'Poppins';
+    box-shadow: var(--box-shadow);
+    padding: 10px 0px;
+}
+
+.siteLogo .logo {
+    color: var(--green);
+    font-size: 23px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.menusOfMenubar{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 5px 10px;
+    font-weight: 600;
+
+}
+.menusOfMenubar:hover{
+    color: var(--green);
+    transition: .3s;
+
+}
+
+.active{
+    color: black;
+}
+
+span.meni-icon{
+    color: var(--green);
+    font-size: 20px;
+    margin: 5px 10px;
+}
+button.navbar-toggler.collapsed {
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+span.navbar-toggler-icon {
+    color: var(--green)!important;
+    font-size: 25px;
+}
+/* Header css style ends to here*/

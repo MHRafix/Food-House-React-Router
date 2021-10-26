@@ -1,0 +1,21 @@
+/* This shop page and shop page css style here  */
+section .shopSection{
+    margin-top: 0px;
+    background: rgb(247 247 247);
+    padding: 40px 0px;
+    font-family: 'Poppins';
+}
+.totalData{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+.searchIput{
+    color: var(--green);
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
